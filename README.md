@@ -4,18 +4,18 @@ This project is designed to detect available parking spots in real-time using vi
 
 Features
 
-Parking Spot Detection: Detects parking spots using a mask and bounding boxes.
-Occupancy Status: Determines if a parking spot is occupied or free based on a machine learning model.
-Real-Time Updates: Updates the status every 30 frames to ensure real-time performance.
-Efficient Computation: Only the necessary frames are used for comparison to optimize performance.
+1. Parking Spot Detection: Detects parking spots using a mask and bounding boxes.
+2. Occupancy Status: Determines if a parking spot is occupied or free based on a machine learning model.
+3. Real-Time Updates: Updates the status every 30 frames to ensure real-time performance.
+4. Efficient Computation: Only the necessary frames are used for comparison to optimize performance.
 Requirements
 
 Python 3.x
-OpenCV
-Scikit-Image
-NumPy
-Scikit-Learn (for loading the pre-trained model)
-A trained model for parking spot occupancy classification (provided in model.p).
+1.OpenCV
+2.Scikit-Image
+3.NumPy
+4.Scikit-Learn (for loading the pre-trained model)
+5.A trained model for parking spot occupancy classification (provided in model.p).
 
 How It Works
 
